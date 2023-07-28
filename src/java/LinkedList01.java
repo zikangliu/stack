@@ -2,7 +2,7 @@ import java.util.LinkedList;
 
 public class LinkedList01 {
     public static void main(String[] args) {
-        LinkedList<String> arr = new LinkedList<String>();
+        LinkedList<String> arr = new LinkedList<>();
         arr.add("1");
         arr.add("2");
         arr.addLast("1997");
@@ -19,5 +19,4 @@ public class LinkedList01 {
             System.out.print(i + " ");
         }
     }
-
-};
+}
